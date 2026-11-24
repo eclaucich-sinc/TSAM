@@ -38,6 +38,6 @@ Esto da una ecuación lineal por cada estado no terminal, es decir, 9 ecuaciones
 
 ### Conclusiones
 
-1. **Política óptima.** Con $R=-0.04$ conviene la ruta larga y segura, subir por la columna 1 y avanzar por la fila superior hacia el $+1$. Desde $S_4$, $S_6$ y $S_9$ conviene retroceder hacia la izquierda, porque lo que se pierde por el camino más largo es muy poco frente al riesgo de caer en el $-1$.
-2. **Utilidades.** Fijada la política, las 9 ecuaciones de Bellman se resuelven por sustitución.
-3. **Estados de menor utilidad.** $S_9$ y $S_7$ son los más bajos ($0.388$ y $0.660$) porque están junto al estado $-1$, y en cada intento hay probabilidad $0.1$ de caer en él.
+1. **Política óptima:** Con $R=-0.04$ conviene la ruta larga y segura, subir por la columna 1 y avanzar por la fila superior hacia el $+1$. Desde $S_4$, $S_6$ y $S_9$ conviene retroceder hacia la izquierda, porque lo que se pierde por el camino más largo es muy poco frente al riesgo de caer en el $-1$.
+2. **Utilidades:** Fijada la política, las 9 ecuaciones de Bellman se resuelven por sustitución.
+3. **Estados de menor utilidad:** $S_9$ y $S_7$ son los más bajos ($0.388$ y $0.660$) porque están junto al estado $-1$, y en cada intento hay probabilidad $0.1$ de caer en él.
