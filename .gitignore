@@ -1,3 +1,4 @@
-clases/
 tinyface_20/
 __pycache__/
+*.pdf
+*.csv
